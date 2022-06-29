@@ -1,0 +1,99 @@
+.headerList {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.center {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoContainer img {
+    background-color: white;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.menuContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.upperPart {
+    display: flex;
+    justify-content: right;
+}
+
+.lowerPart {
+    display: flex;
+    justify-content: right;
+}
+
+.lowerPart h3 {
+    margin-left: 30px;
+}
+
+.lowerPart h3 a {
+    text-decoration: none;
+    color: white
+}
+
+.lowerPart h3 a:hover {
+    color: rgb(42, 127, 224);
+}
+
+.lowerPart h3 a:focus {
+    color: rgb(42, 127, 224);
+}
+
+.contentContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.content {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h1 {
+    margin: 40px;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 33%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card img {
+    height: 200px;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
